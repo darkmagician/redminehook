@@ -1,0 +1,4 @@
+{{ payload.issue.author.firstname }}{{ payload.issue.author.lastname }} {{ payload.action }} {{ payload.issue.tracker.name }}-{{ payload.issue.tracker.id }}: {{ payload.issue.subject }}
+* 日期: {{ payload.issue.start_date }} ~ {{ payload.issue.due_date }}
+* 小时数： {{ payload.issue.estimated_hours }} 
+* 状态:  {{ payload.issue.status.name }} 
